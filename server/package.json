@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "Server app",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adroaldof/server.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Adroaldo de Andrade <adroaldof@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adroaldof/server/issues"
+  },
+  "homepage": "https://github.com/adroaldof/server#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.7.7",
+    "morgan": "^1.7.0"
+  }
+}
